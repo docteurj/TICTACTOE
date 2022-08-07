@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <!-- This should be a header displaying the game name and rules of the game</h1> -->
+    <h1> TIC TAC TOE </h1>
+  </header>
+  <main>
+    <section class="gameNav">
+      <!-- Player name inputs and buttons-->
+      <div>
+        <div id="playerInput">
+          <input type="text" class="nameInput inputText" id="player1Name" placeholder="Enter player 1 Name">
+          <input type="text" class="nameInput inputText" id="player2Name" placeholder="Enter player 2 name">
+        </div>
+        <div>
+          <button id="startButton">Start</button>
+          <button id="restartButton">Restart</button>
+        </div>
+      </div>
+    </section>
+    <section class="gameNav">
+      <div class="gameGrid">
+        <div id="squareOne" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareTwo" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareThree" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareFour" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareFive" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareSix" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareSeven" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareEight" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+        <div id="squareNine" class="square">
+          <img src="img/x.jpg" alt="x" width="150" height="150" hidden class="crossImg">
+          <img src="img/o.png" alt="o" width="150" height="150" hidden class="circleImg">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!-- This should display the game result when game ends. -->
+    <div id="champion">
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
